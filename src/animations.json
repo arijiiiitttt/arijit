@@ -1,0 +1,436 @@
+{
+  "_help": "name -> { frames: [atlas frame names], fps, loop (default true) }. Sprites face RIGHT; the engine mirrors them for left. Add new entries freely; the engine only requires the names it uses (missing ones fall back to 'idle').",
+  "idle": {
+    "frames": [
+      "stand_front",
+      "stand_front",
+      "stand_smile"
+    ],
+    "fps": 0.6
+  },
+  "look": {
+    "frames": [
+      "stand_side"
+    ],
+    "fps": 1
+  },
+  "turn_back": {
+    "frames": [
+      "stand_back"
+    ],
+    "fps": 1
+  },
+  "walk_side": {
+    "frames": [
+      "walk_side_0",
+      "walk_side_1",
+      "walk_side_2",
+      "walk_side_1"
+    ],
+    "fps": 7
+  },
+  "walk_down": {
+    "frames": [
+      "front_0",
+      "front_1",
+      "front_2",
+      "front_3",
+      "front_4",
+      "front_5"
+    ],
+    "fps": 9
+  },
+  "walk_up": {
+    "frames": [
+      "back_0",
+      "back_1",
+      "back_2",
+      "back_3"
+    ],
+    "fps": 8
+  },
+  "run_side": {
+    "frames": [
+      "run_side_0",
+      "run_side_1",
+      "run34_0",
+      "run34_1"
+    ],
+    "fps": 12
+  },
+  "run_diag": {
+    "frames": [
+      "run_side_2",
+      "run_side_3",
+      "run_side_4"
+    ],
+    "fps": 11
+  },
+  "run_down": {
+    "frames": [
+      "run_front_0",
+      "run_front_1",
+      "run_front_2",
+      "run_front_3"
+    ],
+    "fps": 12
+  },
+  "run_up": {
+    "frames": [
+      "back_4",
+      "back_5",
+      "back_6",
+      "back_7",
+      "back_0",
+      "back_1",
+      "back_2",
+      "back_3"
+    ],
+    "fps": 15
+  },
+  "sit_a": {
+    "frames": [
+      "sit_cross"
+    ],
+    "fps": 1
+  },
+  "sit_b": {
+    "frames": [
+      "sit_idle"
+    ],
+    "fps": 1
+  },
+  "sit_c": {
+    "frames": [
+      "sit_hug"
+    ],
+    "fps": 1
+  },
+  "sit_d": {
+    "frames": [
+      "sit_hands"
+    ],
+    "fps": 1
+  },
+  "sit_e": {
+    "frames": [
+      "sit_lean"
+    ],
+    "fps": 1
+  },
+  "sit_side": {
+    "frames": [
+      "sit_side"
+    ],
+    "fps": 1
+  },
+  "sit_sleepy": {
+    "frames": [
+      "sit_sleepy",
+      "sit_hands"
+    ],
+    "fps": 0.4
+  },
+  "sleep": {
+    "frames": [
+      "sleep_1",
+      "sleep_0"
+    ],
+    "fps": 0.7
+  },
+  "sleep_b": {
+    "frames": [
+      "sleep_3",
+      "sleep_2"
+    ],
+    "fps": 0.7
+  },
+  "climb": {
+    "frames": [
+      "climb_0",
+      "climb_1"
+    ],
+    "fps": 4.5
+  },
+  "jump": {
+    "frames": [
+      "jump"
+    ],
+    "fps": 1
+  },
+  "cheer": {
+    "frames": [
+      "cheer",
+      "stand_smile"
+    ],
+    "fps": 3
+  },
+  "phone": {
+    "frames": [
+      "phone"
+    ],
+    "fps": 1
+  },
+  "crawl": {
+    "frames": [
+      "crawl"
+    ],
+    "fps": 1
+  },
+  "carry": {
+    "frames": [
+      "carry_box"
+    ],
+    "fps": 1
+  },
+  "throw": {
+    "frames": [
+      "throw_b",
+      "throw_a"
+    ],
+    "fps": 3,
+    "loop": false
+  },
+  "crawl_side": {
+    "frames": [
+      "crawl_a",
+      "crawl_b"
+    ],
+    "fps": 4
+  },
+  "crawl_slow": {
+    "frames": [
+      "crawl_c",
+      "crawl_d"
+    ],
+    "fps": 3
+  },
+  "carry_side": {
+    "frames": [
+      "carry_side"
+    ],
+    "fps": 1,
+    "bob": 0.035,
+    "bobHz": 9
+  },
+  "carry_down": {
+    "frames": [
+      "carry_front",
+      "carry_front2"
+    ],
+    "fps": 4,
+    "bob": 0.03,
+    "bobHz": 9
+  },
+  "sleep_pillow": {
+    "frames": [
+      "sleep_pillow"
+    ],
+    "fps": 1,
+    "bob": 0.006,
+    "bobHz": 1.6
+  },
+  "sleep_curl": {
+    "frames": [
+      "sleep_curl",
+      "sleep_0"
+    ],
+    "fps": 0.7
+  },
+  "sit_f": {
+    "frames": [
+      "sit_cross2"
+    ],
+    "fps": 1
+  },
+  "sit_g": {
+    "frames": [
+      "sit_confide"
+    ],
+    "fps": 1
+  },
+  "laptop": {
+    "frames": [
+      "laptop"
+    ],
+    "fps": 1
+  },
+  "guitar": {
+    "frames": [
+      "guitar_a",
+      "guitar_b"
+    ],
+    "fps": 2.6
+  },
+  "scout": {
+    "frames": [
+      "scout"
+    ],
+    "fps": 1
+  },
+  "map": {
+    "frames": [
+      "map"
+    ],
+    "fps": 1
+  },
+  "books": {
+    "frames": [
+      "books"
+    ],
+    "fps": 1
+  },
+  "sword": {
+    "frames": [
+      "sword"
+    ],
+    "fps": 1,
+    "bob": 0.02,
+    "bobHz": 5
+  },
+  "yell": {
+    "frames": [
+      "yell",
+      "stand_smile"
+    ],
+    "fps": 3
+  },
+  "dog": {
+    "frames": [
+      "dog"
+    ],
+    "fps": 1,
+    "bob": 0.05,
+    "bobHz": 11
+  },
+  "push_box": {
+    "frames": [
+      "push_box"
+    ],
+    "fps": 1,
+    "bob": 0.03,
+    "bobHz": 6
+  },
+  "crouch": {
+    "frames": [
+      "crouch"
+    ],
+    "fps": 1
+  },
+  "point": {
+    "frames": [
+      "throw_b"
+    ],
+    "fps": 1
+  },
+  "peek": {
+    "frames": [
+      "peek"
+    ],
+    "fps": 1
+  },
+  "push_gray": {
+    "frames": [
+      "push_gray"
+    ],
+    "fps": 1,
+    "bob": 0.03,
+    "bobHz": 6
+  },
+  "cos_blue": {
+    "frames": [
+      "cos_blue"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  },
+  "cos_jacket": {
+    "frames": [
+      "cos_jacket"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  },
+  "cos_green": {
+    "frames": [
+      "cos_green"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  },
+  "cos_suit": {
+    "frames": [
+      "cos_suit"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  },
+  "cos_armor": {
+    "frames": [
+      "cos_armor"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  },
+  "cos_knight": {
+    "frames": [
+      "cos_knight"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  },
+  "cos_ninja": {
+    "frames": [
+      "cos_ninja"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  },
+  "cos_rogue": {
+    "frames": [
+      "cos_rogue"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  },
+  "cos_cyber": {
+    "frames": [
+      "cos_cyber"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  },
+  "cos_wizard": {
+    "frames": [
+      "cos_wizard"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  },
+  "cos_robot": {
+    "frames": [
+      "cos_robot"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  },
+  "cos_astro": {
+    "frames": [
+      "cos_astro"
+    ],
+    "fps": 1,
+    "bob": 0.04,
+    "bobHz": 7
+  }
+}

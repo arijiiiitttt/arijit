@@ -1,0 +1,487 @@
+{
+  "_help": "frames: name -> [sheet, index]. 'index' is the number printed on frames/<sheet>/_contact.png. Every sprite must face RIGHT (the engine mirrors for left). ref_h = pixel height of a standing character in that sheet, used to bring all sheets to one scale.",
+  "target_h": 128,
+  "sheets": {
+    "sheet01": {
+      "ref_h": 184
+    },
+    "sheet12": {
+      "ref_h": 96
+    },
+    "sheet02": {
+      "ref_h": 77
+    },
+    "sheet08": {
+      "ref_h": 104
+    },
+    "sheet10": {
+      "ref_h": 79
+    }
+  },
+  "frames": {
+    "stand_front": [
+      "sheet01",
+      0
+    ],
+    "stand_smile": [
+      "sheet01",
+      1
+    ],
+    "stand_side": [
+      "sheet01",
+      2
+    ],
+    "stand_back": [
+      "sheet01",
+      3
+    ],
+    "sit_cross": [
+      "sheet01",
+      4
+    ],
+    "sit_lean": [
+      "sheet01",
+      5
+    ],
+    "sit_side": [
+      "sheet01",
+      6
+    ],
+    "walk_side_0": [
+      "sheet01",
+      7
+    ],
+    "walk_side_1": [
+      "sheet01",
+      8
+    ],
+    "walk_side_2": [
+      "sheet01",
+      11
+    ],
+    "walk_front_x": [
+      "sheet01",
+      9
+    ],
+    "walk_back_0": [
+      "sheet01",
+      10
+    ],
+    "walk_back_1": [
+      "sheet01",
+      12
+    ],
+    "walk_back_2": [
+      "sheet01",
+      13
+    ],
+    "run_side_0": [
+      "sheet01",
+      14
+    ],
+    "run_side_1": [
+      "sheet01",
+      15
+    ],
+    "run_side_2": [
+      "sheet01",
+      18
+    ],
+    "run_side_3": [
+      "sheet01",
+      19
+    ],
+    "run_side_4": [
+      "sheet01",
+      20
+    ],
+    "run_front_0": [
+      "sheet01",
+      16
+    ],
+    "run_front_1": [
+      "sheet01",
+      17
+    ],
+    "ladder_0": [
+      "sheet01",
+      21
+    ],
+    "ladder_1": [
+      "sheet01",
+      22
+    ],
+    "ladder_2": [
+      "sheet01",
+      23
+    ],
+    "walk_front_a": [
+      "sheet01",
+      24
+    ],
+    "walk_front_b": [
+      "sheet01",
+      25
+    ],
+    "walk_front_c": [
+      "sheet01",
+      26
+    ],
+    "sleep_0": [
+      "sheet01",
+      27
+    ],
+    "sleep_1": [
+      "sheet01",
+      28
+    ],
+    "sleep_2": [
+      "sheet01",
+      29
+    ],
+    "sleep_3": [
+      "sheet01",
+      30
+    ],
+    "back_0": [
+      "sheet12",
+      0
+    ],
+    "back_1": [
+      "sheet12",
+      1
+    ],
+    "back_2": [
+      "sheet12",
+      2
+    ],
+    "back_3": [
+      "sheet12",
+      3
+    ],
+    "back_4": [
+      "sheet12",
+      15
+    ],
+    "back_5": [
+      "sheet12",
+      16
+    ],
+    "back_6": [
+      "sheet12",
+      17
+    ],
+    "back_7": [
+      "sheet12",
+      18
+    ],
+    "front_0": [
+      "sheet12",
+      4
+    ],
+    "front_1": [
+      "sheet12",
+      5
+    ],
+    "front_2": [
+      "sheet12",
+      6
+    ],
+    "front_3": [
+      "sheet12",
+      19
+    ],
+    "front_4": [
+      "sheet12",
+      20
+    ],
+    "front_5": [
+      "sheet12",
+      21
+    ],
+    "run_front_2": [
+      "sheet12",
+      34
+    ],
+    "run_front_3": [
+      "sheet12",
+      35
+    ],
+    "run34_0": [
+      "sheet12",
+      30
+    ],
+    "run34_1": [
+      "sheet12",
+      31
+    ],
+    "run34_2": [
+      "sheet12",
+      32
+    ],
+    "run34_3": [
+      "sheet12",
+      33
+    ],
+    "carry_box": [
+      "sheet12",
+      36
+    ],
+    "phone": [
+      "sheet12",
+      39
+    ],
+    "crawl": [
+      "sheet12",
+      40
+    ],
+    "crouch": [
+      "sheet12",
+      41
+    ],
+    "crawl_prone": [
+      "sheet12",
+      50
+    ],
+    "hang": [
+      "sheet12",
+      51
+    ],
+    "jump": [
+      "sheet12",
+      68
+    ],
+    "climb_0": [
+      "sheet12",
+      65
+    ],
+    "climb_1": [
+      "sheet12",
+      66
+    ],
+    "cheer": [
+      "sheet12",
+      67
+    ],
+    "sit_idle": [
+      "sheet12",
+      84
+    ],
+    "sit_hug": [
+      "sheet12",
+      91
+    ],
+    "sit_hands": [
+      "sheet12",
+      92
+    ],
+    "sit_sleepy": [
+      "sheet12",
+      93
+    ],
+    "sit_back_0": [
+      "sheet12",
+      81
+    ],
+    "sit_back_1": [
+      "sheet12",
+      82
+    ],
+    "lie": [
+      "sheet12",
+      94
+    ],
+    "throw_a": [
+      "sheet02",
+      79
+    ],
+    "throw_b": [
+      "sheet02",
+      59
+    ],
+    "crawl_a": [
+      "sheet02",
+      99
+    ],
+    "crawl_b": [
+      "sheet02",
+      100
+    ],
+    "crawl_c": [
+      "sheet02",
+      113
+    ],
+    "crawl_d": [
+      "sheet02",
+      114
+    ],
+    "crawl_low": [
+      "sheet02",
+      115
+    ],
+    "sleep_pillow": [
+      "sheet02",
+      121
+    ],
+    "sleep_curl": [
+      "sheet02",
+      119
+    ],
+    "sit_cross2": [
+      "sheet02",
+      129
+    ],
+    "carry_front": [
+      "sheet02",
+      133
+    ],
+    "push_box": [
+      "sheet02",
+      67
+    ],
+    "carry_side": [
+      "sheet08",
+      42
+    ],
+    "sit_confide": [
+      "sheet08",
+      41
+    ],
+    "carry_front2": [
+      "sheet08",
+      21
+    ],
+    "laptop": [
+      "sheet10",
+      26
+    ],
+    "guitar_a": [
+      "sheet10",
+      31
+    ],
+    "guitar_b": [
+      "sheet10",
+      32
+    ],
+    "scout": [
+      "sheet10",
+      28
+    ],
+    "map": [
+      "sheet10",
+      29
+    ],
+    "books": [
+      "sheet10",
+      30
+    ],
+    "sword": [
+      "sheet10",
+      25
+    ],
+    "yell": [
+      "sheet10",
+      24
+    ],
+    "prop_door": [
+      "sheet10",
+      22
+    ],
+    "dog": [
+      "sheet10",
+      17
+    ],
+    "face_scared": [
+      "sheet02",
+      6
+    ],
+    "face_angry": [
+      "sheet02",
+      29
+    ],
+    "face_cry": [
+      "sheet02",
+      28
+    ],
+    "face_laugh": [
+      "sheet02",
+      106
+    ],
+    "face_sad": [
+      "sheet02",
+      92
+    ],
+    "face_determined": [
+      "sheet02",
+      84
+    ],
+    "face_skeptic": [
+      "sheet02",
+      85
+    ],
+    "face_shock": [
+      "sheet02",
+      94
+    ],
+    "face_think": [
+      "sheet02",
+      103
+    ],
+    "push_gray": [
+      "sheet02",
+      77
+    ],
+    "peek": [
+      "sheet08",
+      37
+    ],
+    "cos_blue": [
+      "sheet10",
+      3
+    ],
+    "cos_jacket": [
+      "sheet10",
+      4
+    ],
+    "cos_green": [
+      "sheet10",
+      5
+    ],
+    "cos_suit": [
+      "sheet10",
+      6
+    ],
+    "cos_armor": [
+      "sheet10",
+      7
+    ],
+    "cos_knight": [
+      "sheet10",
+      8
+    ],
+    "cos_ninja": [
+      "sheet10",
+      9
+    ],
+    "cos_rogue": [
+      "sheet10",
+      10
+    ],
+    "cos_cyber": [
+      "sheet10",
+      11
+    ],
+    "cos_wizard": [
+      "sheet10",
+      38
+    ],
+    "cos_robot": [
+      "sheet10",
+      40
+    ],
+    "cos_astro": [
+      "sheet10",
+      42
+    ]
+  }
+}

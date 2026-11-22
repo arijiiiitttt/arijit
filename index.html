@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>arijit demo</title>
+<!-- the ONE line you add to any project: -->
+<script src="arijit.js" data-sound="true" data-button="true"></script>
+<style>
+  body{margin:0;font-family:system-ui,sans-serif;background:#f4f1ea;color:#2b2233;min-height:140vh}
+  header{background:#2b2233;color:#fff;padding:18px 32px;font-weight:700}
+  main{max-width:900px;margin:0 auto;padding:40px 24px}
+  h1{font-size:34px;margin:0 0 8px}
+  p{max-width:60ch;line-height:1.55}
+  .row{display:flex;gap:20px;margin:40px 0;flex-wrap:wrap}
+  .card{flex:1 1 240px;background:#fff;border:2px solid #2b2233;border-radius:14px;padding:20px;box-shadow:4px 4px 0 #2b2233;min-height:110px}
+  button{font:inherit;font-weight:700;padding:12px 22px;border:2px solid #2b2233;border-radius:10px;background:#ffd24a;cursor:pointer}
+  .hero{height:160px;border-radius:14px;background:linear-gradient(135deg,#7bc,#fa8);margin:30px 0}
+  footer{background:#2b2233;color:#fff;padding:24px 32px;margin-top:80px}
+</style>
+</head>
+<body>
+<header>My Cool Site</header>
+<main>
+  <h1>Hello, I have a friend now</h1>
+  <p>Move your mouse around. Leave it alone for a bit and watch what happens. You can poke the character, or pick him up and drop him on a card.</p>
+  <div class="hero"></div>
+  <div class="row">
+    <div class="card"><b>Card one</b><p>He likes to climb on these.</p></div>
+    <div class="card"><b>Card two</b><p>And sit on the edge.</p></div>
+    <div class="card"><b>Card three</b><p>Or nap up here.</p></div>
+  </div>
+  <button data-arijit-say="Hi! I am a tip on a button.">A button</button> <button>Another button</button> <a href="#top">a link</a>
+  <p><input placeholder="type here and watch him" style="padding:10px;border:2px solid #2b2233;border-radius:8px;width:260px"></p>
+  <form onsubmit="return false"><input required placeholder="required field" style="padding:10px"> <button type="submit">Submit</button></form>
+  <div style="height:2600px"></div>
+</main>
+<footer>footer</footer>
+</body>
+</html>
